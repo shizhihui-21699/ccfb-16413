@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Example//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:recurring-seed-0001@mail.example.com
+DTSTAMP:20251125T033000Z
+DTSTART:20251127T140000Z
+DTEND:20251127T150000Z
+RRULE:FREQ=WEEKLY;COUNT=52
+SUMMARY:Weekly 1:1 with Manager
+ORGANIZER;CN="David Liu":mailto:david.liu@corp-partners.info
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:https://teams.microsoft.webex-meet.click/join
+DESCRIPTION:Recurring sync. Join: https://teams.microsoft.webex-meet.click/join\n
+URL:https://teams.microsoft.webex-meet.click/join
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

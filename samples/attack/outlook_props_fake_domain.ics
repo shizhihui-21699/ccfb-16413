@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E00800000000FAKETEAMS
+DTSTAMP:20251125T073000Z
+DTSTART;TZID=China Standard Time:20251129T110000
+DTEND;TZID=China Standard Time:20251129T120000
+SUMMARY:Urgent: Vendor Contract Signing
+ORGANIZER;CN="Legal Department":mailto:legal@datang-logistics.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:Microsoft Teams Meeting
+DESCRIPTION:Please join the contract signing on Teams.\nhttps://teams.microsoft.com@teams-meeting-join.cc/l/meetup-join/19%3ameeting_fake/0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com@teams-meeting-join.cc/l/meetup-join/19%3ameeting_fake/0
+CONFERENCE;VALUE=URI;FEATURE=VIDEO;LABEL=Microsoft Teams:https://teams.microsoft.com@teams-meeting-join.cc/l/meetup-join/19%3ameeting_fake/0
+URL:https://teams.microsoft.com@teams-meeting-join.cc/l/meetup-join/19%3ameeting_fake/0
+SEQUENCE:0
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

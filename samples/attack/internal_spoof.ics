@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:internal-spoof-0001@example.com
+DTSTAMP:20251125T026000Z
+DTSTART:20251126T090000Z
+DTEND:20251126T093000Z
+SUMMARY:IT Security: Mandatory Password Reset
+ORGANIZER;CN="IT Security":mailto:it-security@example.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:https://example-portal-login.xyz/owa/reset
+DESCRIPTION:All staff must reset their password by EOD. Click below:\nhttps://exam
+ ple-portal-login.xyz/owa/reset\n
+URL:https://example-portal-login.xyz/owa/reset
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

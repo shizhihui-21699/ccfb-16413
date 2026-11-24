@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E00800000000A1B2C3D4E5F6
+DTSTAMP:20251125T090000Z
+DTSTART;TZID=China Standard Time:20251126T140000
+DTEND;TZID=China Standard Time:20251126T150000
+SUMMARY:Contoso Q4 Business Review
+ORGANIZER;CN="Li Wei":mailto:li.wei@contoso.com
+ATTENDEE;CN="Zhang Min";ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:Microsoft Teams Meeting
+DESCRIPTION:Hi Zhang Min\,n\nPlease join our Q4 review using the link below.\n\nJo
+ in on your computer or mobile app\nhttps://teams.microsoft.com/l/meetup-join/19%
+ 3ameeting_YTk5ZGM0@thread.v2/0?context=%7b%22Tid%22%3a%22abc%22%7d\n\nDial-in:
+ +86 10 1234 5678\nMeeting ID: 123 456 789\n
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTk5ZGM0@thread.v2/0?context=%7b%22Tid%22%3a%22abc%22%7d
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"Tid":"abc","ConferenceId":"123456789"}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:teams:123456789
+CONFERENCE;VALUE=URI;FEATURE=VIDEO;LABEL=Microsoft Teams:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTk5ZGM0@thread.v2/0
+TRANSP:OPAQUE
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

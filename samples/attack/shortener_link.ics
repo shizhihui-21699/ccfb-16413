@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Example//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:short-0001@mail.example.com
+DTSTAMP:20251125T024000Z
+DTSTART:20251126T160000Z
+DTEND:20251126T170000Z
+SUMMARY:Quick sync
+ORGANIZER;CN="Partner":mailto:partner@legit-partner.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:https://bit.ly/3xYzAbC
+DESCRIPTION:Join here: https://bit.ly/3xYzAbC\n
+URL:https://bit.ly/3xYzAbC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

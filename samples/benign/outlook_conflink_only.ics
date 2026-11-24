@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E0080000000CONFLINK
+DTSTAMP:20251125T072000Z
+DTSTART;TZID=China Standard Time:20251129T110000
+DTEND;TZID=China Standard Time:20251129T120000
+SUMMARY:Vendor Quarterly Check-in
+ORGANIZER;CN="Sun Li":mailto:sun.li@datang-logistics.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-ONLINEMEETINGCONFLINK:https://teams.microsoft.com/l/meetup-join/19%3ameeting_abc123
+CONFERENCE;VALUE=URI;FEATURE=VIDEO;LABEL=Microsoft Teams:https://teams.microsoft.com/l/meetup-join/19%3ameeting_abc123
+SEQUENCE:0
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

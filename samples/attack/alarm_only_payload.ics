@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Example//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:alarm-0001@mail.example.org
+DTSTAMP:20251125T032000Z
+DTSTART:20251127T090000Z
+SUMMARY:Standup
+ORGANIZER;CN="PMO":mailto:pmo@vendor-pmo.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:MS Teams
+DESCRIPTION:Regular standup. Link in reminder.
+URL:https://vendor-pmo.com/standup
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT5M
+ATTACH;FMTTYPE=text/html:https://vendor-pmo-files.ru/standup-brief.html
+DESCRIPTION:Open the standup brief
+END:VALARM
+END:VEVENT
+END:VCALENDAR

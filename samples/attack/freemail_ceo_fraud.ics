@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Example//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:ceo-fraud-0001@gmail.com
+DTSTAMP:20251125T030000Z
+DTSTART:20251126T080000Z
+DTEND:20251126T083000Z
+SUMMARY:Urgent - CEO briefing, confidential
+ORGANIZER;CN="Wang Jian (CEO)":mailto:wang.jian.ceo.example@gmail.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:https://drive-google-docs.sharefile-secure.cc/view
+DESCRIPTION:Confidential. Join the briefing: https://drive-google-docs.sharefile-s
+ ecure.cc/view\n
+URL:https://drive-google-docs.sharefile-secure.cc/view
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:6b1k2m3n4p5q6r7s8t9u0v1w2x@google.com
+DTSTAMP:20251125T040000Z
+DTSTART:20251128T160000Z
+DTEND:20251128T170000Z
+SUMMARY:Partner Sync - Northwind
+ORGANIZER;CN="Alex Kim":mailto:alex.kim@northwind-traders.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:zhang.min@example.com
+DESCRIPTION:Join with Google Meet\n\nhttps://meet.google.com/abc-defg-hij\n\nJoi
+ n by phone\n+1 555-0100\nPIN: 123456789\n
+LOCATION:https://meet.google.com/abc-defg-hij
+URL:https://meet.google.com/abc-defg-hij
+X-GOOGLE-CONFERENCE:https://meet.google.com/abc-defg-hij
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

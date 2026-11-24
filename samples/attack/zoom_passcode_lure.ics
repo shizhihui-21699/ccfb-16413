@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zoom Video Communications Inc//Zoom Calendar//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:zoom-meeting-11223344556@zoom.us
+DTSTAMP:20251125T074000Z
+DTSTART:20251129T090000Z
+DTEND:20251129T093000Z
+SUMMARY:Scheduled Maintenance Window - Reschedule Required
+ORGANIZER;CN="Zoom Support":mailto:support@zoom-support-center.help
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:Zoom
+DESCRIPTION:Your meeting was rescheduled. Passcode required: 847192\nRejoin here: https://zoom-support-center.help/passcode/847192
+
+
+URL:https://zoom-support-center.help/passcode/847192
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

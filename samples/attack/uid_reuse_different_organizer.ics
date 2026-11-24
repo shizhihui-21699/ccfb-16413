@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E00800000000A1B2C3D4E5F6
+DTSTAMP:20251125T029000Z
+DTSTART:20251126T100000Z
+DTEND:20251126T110000Z
+SUMMARY:Updated meeting details
+ORGANIZER;CN="Totally Legit":mailto:admin@evil-rehost.net
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:https://evil-rehost.net/meet
+DESCRIPTION:Join: https://evil-rehost.net/meet\n
+URL:https://evil-rehost.net/meet
+SEQUENCE:9
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tencent//Meeting//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:tencent-meeting-81726354@tencent.com
+DTSTAMP:20251125T071000Z
+DTSTART;TZID=Asia/Shanghai:20251128T143000
+DTEND;TZID=Asia/Shanghai:20251128T153000
+SUMMARY:项目周会
+ORGANIZER;CN="Chen Hao":mailto:chen.hao@ruixin-tech.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:腾讯会议
+DESCRIPTION:会议主题：项目周会\n点击链接入会：https://meeting.tencent.com/dm/AbCdEf123456
+URL:https://meeting.tencent.com/dm/AbCdEf123456
+X-TENCENT-MEETING-URL:https://meeting.tencent.com/dm/AbCdEf123456
+SEQUENCE:0
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

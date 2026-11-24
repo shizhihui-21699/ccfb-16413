@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cisco Webex//Webex Meetings//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:webex-1792837465@webex.com
+DTSTAMP:20251125T050000Z
+DTSTART;TZID=Europe/London:20251127T140000
+DTEND;TZID=Europe/London:20251127T150000
+SUMMARY:Support Case Review - Globex
+ORGANIZER;CN="Tom Baker":mailto:tom.baker@globex-industries.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:Webex Meeting
+DESCRIPTION:When it's time\, join your meeting.\n\nJoin meeting\nhttps://globex-in
+ dustries.webex.com/meet/tbaker\n\nMeeting number (access code): 179 283 7465\nM
+ eeting password: welcome1\n
+URL:https://globex-industries.webex.com/meet/tbaker
+CONFERENCE;VALUE=URI;FEATURE=VIDEO;LABEL=Webex:https://globex-industries.webex.com/meet/tbaker
+SEQUENCE:0
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

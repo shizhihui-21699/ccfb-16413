@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:puny-1234-5678-90ab@xn--exmple-cua.com
+DTSTAMP:20251125T023000Z
+DTSTART:20251126T150000Z
+DTEND:20251126T160000Z
+SUMMARY:Board Meeting - Confidential
+ORGANIZER;CN="Example Corp CEO":mailto:ceo@xn--exmple-cua.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:https://xn--microsft-7ya.com/meet/join/8821
+DESCRIPTION:Join the confidential board meeting:\nhttps://xn--microsft-7ya.com/mee
+ t/join/8821\n
+URL:https://xn--microsft-7ya.com/meet/join/8821
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

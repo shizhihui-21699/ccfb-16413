@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zoom Video Communications Inc//Zoom Calendar//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:zoom-meeting-84719263501@zoom.us
+DTSTAMP:20251125T028000Z
+DTSTART;TZID=America/New_York:20251127T100000
+DTEND;TZID=America/New_York:20251127T103000
+SUMMARY:Acme <> Example Corp - Discovery Call
+ORGANIZER;CN="Sarah Chen":mailto:sarah.chen@acme-corp.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:Zoom
+DESCRIPTION:Updated join link:\nhttps://us02web.zoom.us.attacker-relay.cc/j/84719
+ 263501\n
+URL:https://us02web.zoom.us.attacker-relay.cc/j/84719263501
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

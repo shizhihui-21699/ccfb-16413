@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zoom Video Communications Inc//Zoom Calendar//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:zoom-meeting-999888777@zoom.us
+DTSTAMP:20251125T022000Z
+DTSTART:20251126T140000Z
+DTEND:20251126T143000Z
+SUMMARY:Your Zoom meeting recording is ready
+ORGANIZER;CN="Zoom":mailto:no-reply@zoom.us
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:Zoom
+DESCRIPTION:View your recording:\nhttps://zoom.us@recording-viewer.info/play/8471
+ 9263501\n
+URL:https://zoom.us@recording-viewer.info/play/84719263501
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

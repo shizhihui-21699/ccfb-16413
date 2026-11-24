@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID:-//Zoom Video Communications Inc//Zoom Calendar//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:zoom-meeting-84719263501@zoom.us
+DTSTAMP:20251125T030000Z
+DTSTART;TZID=America/New_York:20251127T100000
+DTEND;TZID=America/New_York:20251127T103000
+SUMMARY:Acme <> Example Corp - Discovery Call
+ORGANIZER;CN="Sarah Chen":mailto:sarah.chen@acme-corp.com
+ATTENDEE;CN="Zhang Min";ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:Zoom Meeting https://us02web.zoom.us/j/84719263501?pwd=aBcDeF123
+DESCRIPTION:Hi Zhang Min\,\n\nSarah Chen is inviting you to a scheduled Zoom meeti
+ ng.\n\nTopic: Discovery Call\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/84719
+ 263501?pwd=aBcDeF123\n\nMeeting ID: 847 1926 3501\nPasscode: 123456\n
+URL:https://us02web.zoom.us/j/84719263501?pwd=aBcDeF123
+CONFERENCE;VALUE=URI;FEATURE=VIDEO;LABEL=Zoom Meeting:https://us02web.zoom.us/j/84719263501?pwd=aBcDeF123
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

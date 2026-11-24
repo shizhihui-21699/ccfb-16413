@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invite-guard"
+version = "1.0.0"
+description = "Pre-delivery screening for calendar-invitation phishing"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+invite-guard = "invite_guard.cli:main"
+
+[tool.setuptools]
+packages = ["invite_guard"]
+
+[tool.setuptools.package-data]
+invite_guard = ["py.typed"]

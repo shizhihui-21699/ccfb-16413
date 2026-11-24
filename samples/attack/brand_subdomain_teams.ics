@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d
+DTSTAMP:20251125T020000Z
+DTSTART:20251126T100000Z
+DTEND:20251126T110000Z
+SUMMARY:Important: Q4 Financial Review - Action Required
+ORGANIZER;CN="Contoso Finance":mailto:finance@contoso-finance.com
+ATTENDEE;CN="Zhang Min";RSVP=TRUE:mailto:zhang.min@example.com
+LOCATION:https://teams.microsoft.com.secure-join.cn/meet/9921
+DESCRIPTION:Please join the review here:\nhttps://teams.microsoft.com.secure-join.
+ cn/meet/9921\nMeeting ID: 9921
+URL:https://teams.microsoft.com.secure-join.cn/meet/9921
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Join now https://teams.microsoft.com.secure-join.cn/meet/9921
+END:VALARM
+END:VEVENT
+END:VCALENDAR
